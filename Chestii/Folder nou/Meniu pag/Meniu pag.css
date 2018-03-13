@@ -1,0 +1,14 @@
+.fundal {
+    width: 100%;
+    height: 100%;
+    background-color: lightgrey;
+    border: 0px;
+    padding:0px;
+    z-index: 1;
+    position: absolute;
+    background-image: url("poza fundal.jpg");
+    background-attachment: fixed;
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
