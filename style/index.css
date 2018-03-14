@@ -1,5 +1,10 @@
 @font-face {
-    font-family: mainfont;
+    font-family: title;
+    src: url("./fonts/title.ttf");
+}
+
+@font-face {
+    font-family: text;
     src: url("./fonts/text.ttf");
 }
 
@@ -10,7 +15,6 @@
     width: 100%;
     height: 130px;
     overflow: hidden;
-    font-family: titlefont;
     background-color: #151515;
 }
 
@@ -19,9 +23,19 @@ li {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: mainfont;
+    font-family: text;
     margin-left: 16px;
+}
+
+#logo {
     height: 130px;
+    width: 130px;
+    vertical-align: middle;
+    content: url(./img/yt-logo.jpg);
+}
+
+#logo:hover {
+    content: url(./img/yt-logo-hover.jpg);
 }
 
 ul {
@@ -42,12 +56,30 @@ a:hover {
     color: #08c460;
 }
 
+#content-wrapper {
+    background-image: ;
+    
+}
+
+#space-top {
+    width: 100%;
+    height: 130px;
+}
+
+#img {
+    width: 100%;
+    height: 1032px;
+    background-image: url("./img/enduro.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
 body {
     margin: 0px;
+    padding: 0px;
 }
 
 html {
-    font-size: 20px;
-    font-family: mainfont;
-    background-color: #747474;
+    margin: 0px;
+    padding: 0px;
 }
