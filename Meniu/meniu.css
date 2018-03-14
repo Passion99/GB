@@ -22,7 +22,12 @@ h1{
 .nav {
     z-index: 2;
     position: relative;
-    width: 100%;
+    text-align: center;
+    margin-left: 12%;
+    width: 76%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: titlefont;
     
 } 
 html {
@@ -35,27 +40,24 @@ html {
 }
 
 ul {
+    padding-top: 0px;
     list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding-left: 0px;
 
 
 }
 
 li {
-    float: left;
+    display: inline;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px ;
     text-decoration: none;
+    color: darkgray;
+    font-size: 22px;
 }
 
 li a:hover {
